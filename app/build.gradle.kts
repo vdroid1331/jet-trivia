@@ -67,6 +67,9 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.coroutines.play.services)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
 //    implementation(libs.androidx.room.ktx)
     // added for room
